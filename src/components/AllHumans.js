@@ -7,6 +7,7 @@ import Human from "./Human";
 
 const AllHumans = () => {
   const humans = useSelector((state) => state.humans);
+
   return (
     <Box width="100%" margin="space100" padding="space50">
       <Heading>Humans</Heading>
