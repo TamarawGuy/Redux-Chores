@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex } from "@twilio-paste/flex";
-import { AllHumans } from "./AllHumans";
-import { AllTasks } from "./AllTasks";
+import AllHumans from "./AllHumans";
+import AllTasks from "./AllTasks";
 
 const App = () => {
   return (

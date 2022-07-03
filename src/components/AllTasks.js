@@ -2,8 +2,8 @@ import { Box } from "@twilio-paste/box";
 import { Heading } from "@twilio-paste/heading";
 import { Stack } from "@twilio-paste/stack";
 import { useSelector } from "react-redux";
-import { CreateTask } from "./CreateTask";
-import { Task } from "./Task";
+import CreateTask from "./CreateTask";
+import Task from "./Task";
 
 const AllTasks = () => {
   const tasks = useSelector((state) => state.tasks);

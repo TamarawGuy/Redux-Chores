@@ -3,7 +3,7 @@ import { Heading } from "@twilio-paste/heading";
 import { Stack } from "@twilio-paste/stack";
 import { useSelector } from "react-redux";
 import { CreateHuman } from "./CreateHuman";
-import { Human } from "./Human";
+import Human from "./Human";
 
 const AllHumans = () => {
   const humans = useSelector((state) => state.humans);

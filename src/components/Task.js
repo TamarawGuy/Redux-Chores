@@ -3,7 +3,7 @@ import { Checkbox } from "@twilio-paste/checkbox";
 import { Flex } from "@twilio-paste/flex";
 import { Label } from "@twilio-paste/label";
 import { useSelector, useDispatch } from "react-redux";
-import { SelectHuman } from "./SelectHuman";
+import SelectHuman from "./SelectHuman";
 
 const Task = ({ taskId }) => {
   const task = useSelector((state) =>
